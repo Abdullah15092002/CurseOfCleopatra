@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &311359492453712649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3532939375683322601}
+  - component: {fileID: 4684033773912996548}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3532939375683322601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311359492453712649}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4684033773912996548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311359492453712649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b36ba3b900bfa4ea6bdc8417fb9ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenuView: {fileID: 1463001475218731832, guid: eb5f6ef5b2e88c44d965b121c8561dc6, type: 3}
+  SettingsMenuView: {fileID: 1694828849711669791, guid: 8f33c0d367bae304ba7c237542cc28ff, type: 3}
+  PauseMenuView: {fileID: 5617956328803436546, guid: a174580a049b6d74982ba1d29f7cad62, type: 3}
+  GameOverMenuView: {fileID: 6069971629184952218, guid: 0247a0dcd37143446b23264f18249b11, type: 3}
+  InGameView: {fileID: 6443315520656402659, guid: 3722f87964b366e4e9cffa7efbbaf9fb, type: 3}
+  InGameSettingsMenuView: {fileID: 8037669740609000001, guid: 63488b906c3c7e644a7815d547c3465c, type: 3}
+  HighScoreView: {fileID: 8040081929316845721, guid: 12453784d6bb8c54cb335a49e2b54bb1, type: 3}
+  HighScorePopUpView: {fileID: 1071490405150552716, guid: 7ebeb8688735a1742a98b5bbb248443b, type: 3}
