@@ -13,7 +13,7 @@ public class LevelGenerator : MonoBehaviour
     public int maxSections = 10;
 
     public float maxSpeed = 25f;
-    public float moveSpeed = 12f;
+    public static float moveSpeed = 12f;
 
     private float speedIncreaseAmount = 0.75f;
     private float speedIncreaseInterval = 25f;

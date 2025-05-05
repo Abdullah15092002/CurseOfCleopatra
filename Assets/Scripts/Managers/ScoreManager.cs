@@ -37,7 +37,6 @@ namespace Assets.Scripts.Managers
         }
         public void SaveScore()
         {
-            PlayerPrefs.SetInt("HighScore", 50);
             int highScoree = PlayerPrefs.GetInt("HighScore");
             int scoreCountInt = Mathf.RoundToInt(scoreCount);
             PlayerPrefs.SetInt("LastScore", scoreCountInt);

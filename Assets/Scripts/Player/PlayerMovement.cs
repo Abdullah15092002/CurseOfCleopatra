@@ -36,7 +36,11 @@ namespace Assets.Scripts.Player
         }
 
         void Update()
-        {           
+        {
+            if (animatorControls.IsInDeathState())
+            {
+                GameManager.Instance.isGroundMove = false;               
+            }
             InputControl();
         }
         public void InputControl()
@@ -160,8 +164,6 @@ namespace Assets.Scripts.Player
             GameManager.Instance.GameOver();
         }
 
-
-
         private void OnCollisionEnter(Collision collision)
         {
             if (collision.collider.CompareTag("HitTheLeg"))
@@ -173,14 +175,6 @@ namespace Assets.Scripts.Player
 
         private void OnTriggerEnter(Collider other)
         {
-            /* if (other.CompareTag("Coin"))
-            {                                    Para Toplama İşlemlerini Coin Prefabı yapacak
-                CoinsCollected++;
-                CoinsText.text = CoinsCollected.ToString();
-            }*/
-            // event oluşturup burada ınvoke edebılırız boylece bır sınıf oluşturup
-            // orada para toplama işlemini yönetiriz
-
             if (other.CompareTag("Obs"))
             {
                 animatorControls.SetDeadTrue();           

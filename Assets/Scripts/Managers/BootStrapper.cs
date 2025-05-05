@@ -1,5 +1,6 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
+using DG.Tweening;
 
 
 namespace Assets.Scripts.Managers
@@ -9,6 +10,7 @@ namespace Assets.Scripts.Managers
             [SerializeField] private GameObject UIManagerPrefab;
             [SerializeField] private GameObject GameManagerPrefab;
             [SerializeField] private GameObject ScoreManagerPrefab;
+            [SerializeField] private GameObject AudioManagerPrefab;
 
             void Awake()
             {
@@ -24,11 +26,15 @@ namespace Assets.Scripts.Managers
                {
                 Instantiate(ScoreManagerPrefab);
                }
+               if (AudioManager.Instance == null)
+               {
+                  Instantiate(AudioManagerPrefab);
+               }
 
         }
             private void Start()
             {
-                SceneManager.LoadScene("MenuScene");
-            }
+            SceneManager.LoadScene("MenuScene");
+        }
     }
 }

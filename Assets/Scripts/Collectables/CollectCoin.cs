@@ -13,6 +13,7 @@ public class CollectCoin : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             this.gameObject.SetActive(false);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.CoinCollectMusic);
             EventManager.OnCoinCollected?.Invoke(CoinPointValue);
         }
         
