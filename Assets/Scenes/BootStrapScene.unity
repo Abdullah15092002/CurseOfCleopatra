@@ -156,6 +156,7 @@ MonoBehaviour:
   GameManagerPrefab: {fileID: 9077457105445026929, guid: 08c69b67a46ae5749b664184a8482ffa, type: 3}
   ScoreManagerPrefab: {fileID: 5595832617828566311, guid: 5fdaa5d17b769b447861c2970f0898e7, type: 3}
   AudioManagerPrefab: {fileID: 6700905661763883826, guid: 2ba1031836c9c024487bf96964db39cb, type: 3}
+  PowerUpManagerPrefab: {fileID: 8662051166477827704, guid: 86ea967df25ebc24cbba154bb177d87d, type: 3}
 --- !u!4 &874662919
 Transform:
   m_ObjectHideFlags: 0

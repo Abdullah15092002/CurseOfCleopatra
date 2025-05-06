@@ -11,9 +11,6 @@ namespace Assets.Scripts.Pointer
 {
     public static class UIInputBlocker
     {
-        /// <summary>
-        /// Pointer UI üzerinde mi ve verdiğin tag'e sahip mi kontrol eder.
-        /// </summary>
         public static bool IsPointerOverUIWithTag()
         {
             string tag = "UIButton";

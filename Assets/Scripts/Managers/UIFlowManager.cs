@@ -6,6 +6,8 @@ using Assets.Scripts.MVP.MainMenu;
 using Assets.Scripts.MVP.MainMenu.HighScoreMenu;
 using Assets.Scripts.MVP.MainMenu.SettingsMenu;
 using Assets.Scripts.MVP.PauseMen;
+using Assets.Scripts.MVP.PowerUpLayout;
+using UnityEngine;
 
 namespace Assets.Scripts.Managers 
 {
@@ -19,6 +21,7 @@ namespace Assets.Scripts.Managers
         private InGameSettingsMenuPresenter _inGameSettingsMenuPresenter;
         private HighScorePresenter _highScorePresenter;
         private HighScorePopUpPresenter _highScorePopUpPresenter;
+        private PowerUpPresenter _powerUpPresenter;
         public UIFlowManager(
             MainMenuView mainMenuView,
             SettingsMenuView settingsMenuView,
@@ -27,7 +30,8 @@ namespace Assets.Scripts.Managers
             InGameView inGameView,
             InGameSettingsMenuView inGameSettingsMenuView,
             HighScoreView highScoreView,
-            HighScorePopUpView highScorePopUpView)
+            HighScorePopUpView highScorePopUpView,
+            PowerUpView powerUpView)
         {
             _mainMenuPresenter = new MainMenuPresenter(mainMenuView);
             _settingsMenuPresenter = new SettingsMenuPresenter(settingsMenuView);
@@ -37,6 +41,7 @@ namespace Assets.Scripts.Managers
             _inGameSettingsMenuPresenter = new InGameSettingsMenuPresenter(inGameSettingsMenuView);
             _highScorePresenter= new HighScorePresenter(highScoreView);
             _highScorePopUpPresenter= new HighScorePopUpPresenter(highScorePopUpView);
+            _powerUpPresenter= new PowerUpPresenter(powerUpView);
 
             _pauseMenuPresenter.OnMainMenuShow += ShowMainMenu;
             _gameOverMenuPresenter.OnMainMenuShow += ShowMainMenu;
@@ -53,6 +58,8 @@ namespace Assets.Scripts.Managers
             UIManager.Instance.OnOpenGameOverMenu += HandleOpenGameOverMenu;
             UIManager.Instance.OnShowPopUp += ShowPopUp;
             UIManager.Instance.OnHidePopUp += HidePopUp;
+            UIManager.Instance.OnShowPowerUp += ShowPowerUp;
+            UIManager.Instance.OnHidePowerUp += HidePowerUp;
             StartGameMenuLayout();
         }
 
@@ -64,7 +71,9 @@ namespace Assets.Scripts.Managers
         public void ShowHighScore() => _highScorePresenter.Show();
         public void ShowPopUp()=>_highScorePopUpPresenter.Show();
         public void ShowGameOverMenu() => _gameOverMenuPresenter.Show();
+        public void ShowPowerUp(Sprite powerUpImage) =>  _powerUpPresenter.Show(powerUpImage);
 
+        public void HidePowerUp() => _powerUpPresenter.Hide();
         public void HidePopUp() => _highScorePopUpPresenter.Hide();
 
         public void HandleOpenGameOverMenu()
@@ -82,7 +91,7 @@ namespace Assets.Scripts.Managers
             _inGameSettingsMenuPresenter.Hide(); 
             _highScorePresenter.Hide();
             _highScorePopUpPresenter.Hide();
-            
+            _powerUpPresenter.Hide();
         }
 
     }

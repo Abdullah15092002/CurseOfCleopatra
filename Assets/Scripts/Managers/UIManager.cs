@@ -6,6 +6,7 @@ using Assets.Scripts.MVP.MainMenu;
 using Assets.Scripts.MVP.MainMenu.HighScoreMenu;
 using Assets.Scripts.MVP.MainMenu.SettingsMenu;
 using Assets.Scripts.MVP.PauseMen;
+using Assets.Scripts.MVP.PowerUpLayout;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -23,11 +24,14 @@ namespace Assets.Scripts.Managers
         [SerializeField] private InGameSettingsMenuView InGameSettingsMenuView;
         [SerializeField] private HighScoreView HighScoreView;
         [SerializeField] private HighScorePopUpView HighScorePopUpView;
+        [SerializeField] private PowerUpView PowerUpView;
         private UIFlowManager UIFlowManager;
         public static UIManager Instance { get; private set; }
         public event Action OnOpenGameOverMenu;
         public event Action OnShowPopUp;
         public event Action OnHidePopUp;
+        public event Action<Sprite> OnShowPowerUp;
+        public event Action OnHidePowerUp;
         private bool hasInitializedUI = false;
         void Awake()
         {
@@ -64,6 +68,7 @@ namespace Assets.Scripts.Managers
                 InGameSettingsMenuView = FindObjectOfType<InGameSettingsMenuView>();
                 HighScoreView = FindObjectOfType<HighScoreView>();
                 HighScorePopUpView = FindObjectOfType<HighScorePopUpView>();
+                PowerUpView = FindObjectOfType<PowerUpView>();
 
                 DontDestroyOnLoad(MainMenuView);
                 DontDestroyOnLoad(SettingsMenuView);
@@ -73,12 +78,12 @@ namespace Assets.Scripts.Managers
                 DontDestroyOnLoad(InGameSettingsMenuView);
                 DontDestroyOnLoad(HighScoreView);
                 DontDestroyOnLoad(HighScorePopUpView);
+                DontDestroyOnLoad(PowerUpView);
 
                 UIFlowManager = new UIFlowManager(
-                    MainMenuView, SettingsMenuView,
-                    PauseMenuView,GameOverMenuView,
-                    InGameView,InGameSettingsMenuView,
-                    HighScoreView,HighScorePopUpView);
+                    MainMenuView, SettingsMenuView,PauseMenuView,
+                    GameOverMenuView,InGameView,InGameSettingsMenuView,
+                    HighScoreView,HighScorePopUpView,PowerUpView);
             }
             
         }
@@ -96,6 +101,15 @@ namespace Assets.Scripts.Managers
             OnShowPopUp?.Invoke();
             yield return new WaitForSeconds(2f);
             OnHidePopUp?.Invoke();
+        }
+
+        public void OnShowPowerUpLayout(Sprite powerUpImage)
+        {
+            OnShowPowerUp?.Invoke(powerUpImage);
+        }
+        public void OnHidePowerUpLayout()
+        {
+            OnHidePowerUp?.Invoke();
         }
     }
 }

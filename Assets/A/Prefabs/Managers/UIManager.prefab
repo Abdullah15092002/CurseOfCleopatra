@@ -52,3 +52,4 @@ MonoBehaviour:
   InGameSettingsMenuView: {fileID: 8037669740609000001, guid: 63488b906c3c7e644a7815d547c3465c, type: 3}
   HighScoreView: {fileID: 8040081929316845721, guid: 12453784d6bb8c54cb335a49e2b54bb1, type: 3}
   HighScorePopUpView: {fileID: 1071490405150552716, guid: 7ebeb8688735a1742a98b5bbb248443b, type: 3}
+  PowerUpView: {fileID: 8216569430280835230, guid: 9edcb6d5f91e75646a9da285b4473182, type: 3}

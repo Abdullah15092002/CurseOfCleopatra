@@ -11,8 +11,9 @@ namespace Assets.Scripts.Managers
             [SerializeField] private GameObject GameManagerPrefab;
             [SerializeField] private GameObject ScoreManagerPrefab;
             [SerializeField] private GameObject AudioManagerPrefab;
+            [SerializeField] private GameObject PowerUpManagerPrefab;
 
-            void Awake()
+        void Awake()
             {
                 if (UIManager.Instance == null)
                 {
@@ -29,6 +30,10 @@ namespace Assets.Scripts.Managers
                if (AudioManager.Instance == null)
                {
                   Instantiate(AudioManagerPrefab);
+               }
+              if (PowerUpManager.Instance == null)
+               {
+                Instantiate(PowerUpManagerPrefab);
                }
 
         }

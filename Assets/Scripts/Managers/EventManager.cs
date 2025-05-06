@@ -15,5 +15,6 @@ namespace Assets.Scripts.Managers
         public static Action OnGameRestarted;//Oyun Restartlandığında InGameView dakı degerlerı 0 lar
         public static Action<int,int> OnUpdateHighScore;
         public static Action<float> OnScoreIncreased;
+        public static Action OnMagnetCollected;
     }
 }
