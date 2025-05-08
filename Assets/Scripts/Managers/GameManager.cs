@@ -46,6 +46,7 @@ namespace Assets.Scripts.Managers
         }
         public void GameOver()
         {
+            
             Time.timeScale = 0f;
             isDead = true;
             isGroundMove =false;
@@ -56,7 +57,8 @@ namespace Assets.Scripts.Managers
         }
         public void ResetGame()
         {
-            LevelGenerator.moveSpeed = 12f;
+            PowerUpManager.Instance.GameOverRegulations();
+            ResetSpeed();
             ScoreManager.Instance.coinCount = 0;
             ScoreManager.Instance.scoreCount = 0;
             ScoreManager.Instance.isHighScoreShow = false;
@@ -69,7 +71,7 @@ namespace Assets.Scripts.Managers
         }
         public void StartGame()
         {
-            LevelGenerator.moveSpeed = 12f;
+            ResetSpeed();
             isDead = false;
             isGameStart = true;
             isGroundMove = true;
@@ -95,6 +97,10 @@ namespace Assets.Scripts.Managers
                 currentlyMove = true;
             }
           
+        }
+        public void ResetSpeed()
+        {
+            LevelGenerator.moveSpeed = 12f;
         }
     }
 }

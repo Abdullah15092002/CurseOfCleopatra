@@ -435,7 +435,7 @@ PrefabInstance:
       addedObject: {fileID: 8118056039339592318}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0b78b3e08d222e94995e5934ff4e7826, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 399908929421175473}
+      addedObject: {fileID: 5884127740712334168}
   m_SourcePrefab: {fileID: 100100000, guid: 0b78b3e08d222e94995e5934ff4e7826, type: 3}
 --- !u!1 &5166420394349921498 stripped
 GameObject:
@@ -492,7 +492,7 @@ CapsuleCollider:
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0, y: 0.85, z: 0}
---- !u!114 &399908929421175473
+--- !u!114 &5884127740712334168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -501,21 +501,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5166420394349921498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 932af27ec5129a042ad281045b2bc8d6, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a83defe0054aae4c937fa49f532efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 2
-  CoinsText: {fileID: 0}
-  swipeThreshold: 50
-  CoinPanel: {fileID: 0}
-  distancePanel: {fileID: 0}
-  player: {fileID: 5166420394349921498}
-  startScreen: {fileID: 0}
-  DistanceCollected: 0
-  slideFX: {fileID: 0}
-  jumpFX: {fileID: 0}
-  gameOver: {fileID: 0}
-  cameraObj: {fileID: 7352413853369061070}
 --- !u!4 &5546498867479961184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0b78b3e08d222e94995e5934ff4e7826, type: 3}

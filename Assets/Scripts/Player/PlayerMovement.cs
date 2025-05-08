@@ -159,6 +159,7 @@ namespace Assets.Scripts.Player
         }
         IEnumerator WaitGameOver()
         {
+            PowerUpManager.Instance.GameOverRegulations();
             float timer = 1.5f;
             yield return new WaitForSeconds(timer);
             GameManager.Instance.GameOver();
@@ -172,45 +173,71 @@ namespace Assets.Scripts.Player
             }
         }
 
-
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Obs"))
+            string tag = other.tag;
+
+            if (PowerUpManager.Instance.isShieldActive)
             {
-                animatorControls.SetDeadTrue();           
-                StartCoroutine(MoveBackwardOnDeath());
-                StartCoroutine(WaitGameOver());
+                if (PowerUpManager.Instance.isShieldHitCooldown) return;
+                HandleShieldCollision(tag);
             }
-
-            if (other.CompareTag("LeftTripping"))
+            else
             {
-                animatorControls.SetLeftTrippingTrue();
-                animatorControls.SetDeadFalse();
-                StartCoroutine(MoveRightOnDeath());
-                StartCoroutine(WaitGameOver());
-                //StartCoroutine(ResetTrippingState("LeftTripping"));
+                HandleUnprotectedCollision(tag);
             }
+        }
 
-            if (other.CompareTag("RightTripping"))
+        private void HandleShieldCollision(string tag)
+        {
+             switch (tag)
             {
-                animatorControls.SetRightTrippingTrue();
-                animatorControls.SetDeadFalse();
-                StartCoroutine(MoveLeftOnDeath());
-                StartCoroutine(WaitGameOver());
-                //StartCoroutine(ResetTrippingState("RightTripping")); 
+                case "Obs":
+                case "LeftTripping":
+                case "RightTripping":
+                case "FallDamage":
+                    StartCoroutine(PowerUpManager.Instance.ShieldHitCooldown());
+                    break;
+
+                case "NoLeftRight":
+                    canMoveLeftRight = false;
+                    break;
             }
+        }
 
-            if (other.CompareTag("FallDamage"))
+        private void HandleUnprotectedCollision(string tag)
+        {
+            switch (tag)
             {
-                cameraObj.transform.parent = null;
-                animatorControls.SetFallDeadTrue();
-                StartCoroutine(WaitGameOver());
-            }
+                case "Obs":
+                    animatorControls.SetDeadTrue();
+                    StartCoroutine(MoveBackwardOnDeath());
+                    StartCoroutine(WaitGameOver());
+                    break;
 
-            else if (other.CompareTag("NoLeftRight"))
-            {
-                canMoveLeftRight = false;
+                case "LeftTripping":
+                    animatorControls.SetLeftTrippingTrue();
+                    animatorControls.SetDeadFalse();
+                    StartCoroutine(MoveRightOnDeath());
+                    StartCoroutine(WaitGameOver());
+                    break;
 
+                case "RightTripping":
+                    animatorControls.SetRightTrippingTrue();
+                    animatorControls.SetDeadFalse();
+                    StartCoroutine(MoveLeftOnDeath());
+                    StartCoroutine(WaitGameOver());
+                    break;
+
+                case "FallDamage":
+                    cameraObj.transform.parent = null;
+                    animatorControls.SetFallDeadTrue();
+                    StartCoroutine(WaitGameOver());
+                    break;
+
+                case "NoLeftRight":
+                    canMoveLeftRight = false;
+                    break;
             }
         }
 
@@ -310,7 +337,7 @@ namespace Assets.Scripts.Player
                 if (isJumpDown)
                     rb.MovePosition(rb.position + new Vector3(0, 0f, 0) * animator.deltaPosition.magnitude);
                 else
-                    rb.MovePosition(rb.position + new Vector3(0, 1.5f, 0) * animator.deltaPosition.magnitude);
+                    rb.MovePosition(rb.position + new Vector3(0, 0.8f, 0) * animator.deltaPosition.magnitude);
             }
             else if (animatorControls.GetBoolRight())
             {

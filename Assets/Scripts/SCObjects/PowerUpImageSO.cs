@@ -7,5 +7,6 @@ namespace Assets.Scripts.SCObjects
     public class PowerUpImageSO:ScriptableObject
     {
          public Sprite magnetSprite;
-    }
+         public Sprite Shield;
+    } 
 }

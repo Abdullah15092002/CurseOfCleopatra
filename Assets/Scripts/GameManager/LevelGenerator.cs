@@ -15,21 +15,19 @@ public class LevelGenerator : MonoBehaviour
     public float maxSpeed = 25f;
     public static float moveSpeed = 12f;
 
-    private float speedIncreaseAmount = 0.75f;
-    private float speedIncreaseInterval = 25f;
-    private bool hasStartedSpeedIncrease = false;
-    private int currentSectionIndex;
+    private readonly float speedIncreaseAmount = 0.75f;
+    private readonly float speedIncreaseInterval = 25f;
     private List<GameObject> generatedSections = new List<GameObject>();
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        GenerateInitialSections();      
+        GenerateInitialSections();
+        StartCoroutine(IncreaseSpeedRoutine());
     }
 
     private void Update()
     {
-       
         if (GameManager.Instance.isGroundMove)
         {
             MoveSections();
@@ -42,7 +40,6 @@ public class LevelGenerator : MonoBehaviour
     }
     void GenerateInitialSections()
     {
-        Debug.Log("Oluştu.");
         GameObject initialSection = Instantiate(sections[0], Vector3.zero, Quaternion.identity);
         generatedSections.Add(initialSection);
 
@@ -64,7 +61,6 @@ public class LevelGenerator : MonoBehaviour
 
         GameObject newSection = Instantiate(sections[randomIndex], position, Quaternion.identity);
         generatedSections.Add(newSection);
-        currentSectionIndex++;
     }
     void MoveSections()
     {
@@ -94,11 +90,15 @@ public class LevelGenerator : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(speedIncreaseInterval);
-            moveSpeed+= speedIncreaseAmount;
 
-            if (moveSpeed> maxSpeed)
+            if (GameManager.Instance.isGroundMove)
             {
-                moveSpeed = maxSpeed;
+                moveSpeed += speedIncreaseAmount;
+
+                if (moveSpeed > maxSpeed)
+                {
+                    moveSpeed = maxSpeed;
+                }
             }
         }
     }

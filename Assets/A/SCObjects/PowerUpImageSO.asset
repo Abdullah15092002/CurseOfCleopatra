@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: PowerUpImageSO
   m_EditorClassIdentifier: 
   magnetSprite: {fileID: 21300000, guid: 4013f2b8472dc52449e3d38f9581f31e, type: 3}
+  Shield: {fileID: 21300000, guid: 571ff58e5dde0134b8d919f5d9911d5c, type: 3}
