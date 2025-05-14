@@ -3980,6 +3980,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 885768563237297944, guid: 6890bccfbfbfb5e40aa9ef3cc1e6c624, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8981803005739353204, guid: 583009abf0e21e64697b1570b0ac1aae, type: 3}
+    - target: {fileID: 1362871170487618322, guid: 6890bccfbfbfb5e40aa9ef3cc1e6c624, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a75c9feece9b0cc4aa4fddc1daa99952, type: 2}
     - target: {fileID: 5163404401659833860, guid: 6890bccfbfbfb5e40aa9ef3cc1e6c624, type: 3}
       propertyPath: m_Name
       value: TempleTorch (5)

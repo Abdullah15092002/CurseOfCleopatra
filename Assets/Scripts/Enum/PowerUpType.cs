@@ -10,6 +10,7 @@ namespace Assets.Scripts.Enum
     {
         Magnet,
         SpeedBoost,
+        SlowDown,
         Shield
     }
 }

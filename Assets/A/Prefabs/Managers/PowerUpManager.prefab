@@ -45,3 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUpImageSO: {fileID: 11400000, guid: 9d965a928830b68469b5b3c936b8f9d4, type: 2}
+  playerEffectControllerPrefab: {fileID: 4979404577465271863, guid: 07f3a23b57820f34196e9f0beeb8574b, type: 3}
+  isShieldActive: 0
+  isShieldHitCooldown: 0

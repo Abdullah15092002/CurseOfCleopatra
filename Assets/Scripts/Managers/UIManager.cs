@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.MVP.GameOverMen;
+﻿using Assets.Scripts.Enum;
+using Assets.Scripts.MVP.GameOverMen;
 using Assets.Scripts.MVP.HighScorepPopUp;
 using Assets.Scripts.MVP.InGameLayout;
 using Assets.Scripts.MVP.InGameSettingsMenu;
@@ -30,8 +31,8 @@ namespace Assets.Scripts.Managers
         public event Action OnOpenGameOverMenu;
         public event Action OnShowPopUp;
         public event Action OnHidePopUp;
-        public event Action<Sprite> OnShowPowerUp;
-        public event Action OnHidePowerUp;
+        public event Action<PowerUpType,Sprite> OnShowPowerUp;
+        public event Action<PowerUpType> OnHidePowerUp;
         private bool hasInitializedUI = false;
         void Awake()
         {
@@ -103,13 +104,13 @@ namespace Assets.Scripts.Managers
             OnHidePopUp?.Invoke();
         }
 
-        public void OnShowPowerUpLayout(Sprite powerUpImage)
+        public void OnShowPowerUpLayout(PowerUpType type,Sprite powerUpImage)
         {
-            OnShowPowerUp?.Invoke(powerUpImage);
+            OnShowPowerUp?.Invoke(type, powerUpImage);
         }
-        public void OnHidePowerUpLayout()
+        public void OnHidePowerUpLayout(PowerUpType type)
         {
-            OnHidePowerUp?.Invoke();
+            OnHidePowerUp?.Invoke(type);
         }
     }
 }

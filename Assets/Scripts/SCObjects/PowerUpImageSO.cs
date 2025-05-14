@@ -8,5 +8,7 @@ namespace Assets.Scripts.SCObjects
     {
          public Sprite magnetSprite;
          public Sprite Shield;
-    } 
+         public Sprite speedBoostSprite;
+         public Sprite slowDownSprite;
+    }
 }

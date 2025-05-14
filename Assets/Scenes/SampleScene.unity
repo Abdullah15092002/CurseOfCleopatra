@@ -297,7 +297,6 @@ MonoBehaviour:
   sectionLength: 100
   maxSections: 10
   maxSpeed: 25
-  moveSpeed: 12
 --- !u!1 &703833228
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,8 +902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a83defe0054aae4c937fa49f532efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2161542403621952689}
-  cameraObj: {fileID: 100204424}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

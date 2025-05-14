@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|c:\\users\\abdul\\unity\\rsquarestudio_curseofcleopatra\\assets\\scripts\\managers\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\gamemanager\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\managers\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,28 +15,68 @@
       "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|c:\\users\\abdul\\unity\\rsquarestudio_curseofcleopatra\\assets\\scripts\\managers\\uiflowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\uiflowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\gamemanager\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\collectables\\speedbooster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\speedbooster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\collectables\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|c:\\users\\abdul\\unity\\rsquarestudio_curseofcleopatra\\assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\mvp\\poweruplayout\\poweruppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mvp\\poweruplayout\\poweruppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\mvp\\poweruplayout\\powerupview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mvp\\poweruplayout\\powerupview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|c:\\users\\abdul\\unity\\rsquarestudio_curseofcleopatra\\assets\\scripts\\collectables\\magnetstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\magnetstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\collectables\\slowdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\slowdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\collectables\\collectcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\collectcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\collectables\\magnetstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\magnetstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\enum\\poweruptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enum\\poweruptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\managers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\scobjects\\powerupimageso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scobjects\\powerupimageso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\collectables\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\controllers\\playereffectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\playereffectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\controllers\\playeranimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\playeranimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\enum\\effecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enum\\effecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41650FB7-ED35-AE7C-3E39-1F0267B754AF}|Assembly-CSharp.csproj|C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\assets\\scripts\\enums\\animationstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,110 +90,250 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAlwHAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:54:03.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIFlowManager.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\UIFlowManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIFlowManager.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\UIFlowManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\UIFlowManager.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAIA+wF0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:52:20.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Shield.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\Shield.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\Shield.cs",
-              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\Shield.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Collectables\\Shield.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "SpeedBooster.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\SpeedBooster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\SpeedBooster.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\SpeedBooster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\SpeedBooster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:31:04.526Z"
+              "WhenOpened": "2025-05-11T10:37:50.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PowerUpImageSO.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
-              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:22:32.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MagnetStick.cs",
-              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\MagnetStick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\MagnetStick.cs",
-              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\MagnetStick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Collectables\\MagnetStick.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAhwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:53:26.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PowerUpManager.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\PowerUpManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\PowerUpManager.cs",
               "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\PowerUpManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\PowerUpManager.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAnwFAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAIwFcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T17:12:28.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "MagnetStick.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\MagnetStick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\MagnetStick.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\MagnetStick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\MagnetStick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:53:26.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SlowDown.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\SlowDown.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\SlowDown.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\SlowDown.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\SlowDown.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:40:19.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAnwDsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwGcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T17:01:18.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LevelGenerator.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\GameManager\\LevelGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\LevelGenerator.cs",
               "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\GameManager\\LevelGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager\\LevelGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:57:59.031Z"
+              "WhenOpened": "2025-05-06T16:57:59.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "PowerUpView.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpView.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpView.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAMwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:41:22.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PowerUpPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpPresenter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpPresenter.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpPresenter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MVP\\PowerUpLayout\\PowerUpPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:36:27.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CollectCoin.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\CollectCoin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\CollectCoin.cs",
               "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\CollectCoin.cs",
               "RelativeToolTip": "Assets\\Scripts\\Collectables\\CollectCoin.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAawB0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:53:48.868Z"
+              "WhenOpened": "2025-05-06T16:53:48.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "PowerUpType.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Enum\\PowerUpType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enum\\PowerUpType.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Enum\\PowerUpType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enum\\PowerUpType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:41:37.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Managers\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\AudioManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:31:22.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Shield.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\Shield.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\Shield.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Collectables\\Shield.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\Shield.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:31:04.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PowerUpImageSO.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SCObjects\\PowerUpImageSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:22:32.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAvwKEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAgwKEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:26:42.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T11:26:42.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
+              "Title": "PlayerAnimatorController.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Controllers\\PlayerAnimatorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\PlayerAnimatorController.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Controllers\\PlayerAnimatorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controllers\\PlayerAnimatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:34:27.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerEffectController.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Controllers\\PlayerEffectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\PlayerEffectController.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Controllers\\PlayerEffectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controllers\\PlayerEffectController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:34:15.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EffectType.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Enum\\EffectType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enum\\EffectType.cs",
+              "ToolTip": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Enum\\EffectType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enum\\EffectType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:14:01.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AnimationStates.cs",
               "DocumentMoniker": "C:\\Users\\abdul\\Unity\\RSquareStudio_CurseOfCleopatra\\Assets\\Scripts\\Enums\\AnimationStates.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enums\\AnimationStates.cs",

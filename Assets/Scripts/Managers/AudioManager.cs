@@ -16,6 +16,7 @@ namespace Assets.Scripts.Managers
         [Header("AudioClip’ler")]
         public AudioClip backgroundMusic;
         public AudioClip CoinCollectMusic;
+        public AudioClip BoostCollectMusic;
 
 
         void Awake()

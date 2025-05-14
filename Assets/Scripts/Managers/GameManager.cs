@@ -98,9 +98,10 @@ namespace Assets.Scripts.Managers
             }
           
         }
+        
         public void ResetSpeed()
         {
-            LevelGenerator.moveSpeed = 12f;
+            LevelGenerator.baseSpeed = 12f;
         }
     }
 }

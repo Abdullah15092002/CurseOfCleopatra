@@ -13,7 +13,9 @@ public class LevelGenerator : MonoBehaviour
     public int maxSections = 10;
 
     public float maxSpeed = 25f;
-    public static float moveSpeed = 12f;
+    public float moveSpeed = 12f;
+    public static float baseSpeed = 12f;    
+    public static float boostMultiplier = 1f;
 
     private readonly float speedIncreaseAmount = 0.75f;
     private readonly float speedIncreaseInterval = 25f;
@@ -28,8 +30,10 @@ public class LevelGenerator : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log(moveSpeed);
         if (GameManager.Instance.isGroundMove)
         {
+            moveSpeed = baseSpeed * boostMultiplier;
             MoveSections();
             DeleteSectionsBehindPlayer();
             if (generatedSections.Count < maxSections || generatedSections[generatedSections.Count - 1].transform.position.z < player.position.z + deletionDistance)
@@ -93,11 +97,11 @@ public class LevelGenerator : MonoBehaviour
 
             if (GameManager.Instance.isGroundMove)
             {
-                moveSpeed += speedIncreaseAmount;
+                baseSpeed += speedIncreaseAmount;
 
-                if (moveSpeed > maxSpeed)
+                if (baseSpeed > maxSpeed)
                 {
-                    moveSpeed = maxSpeed;
+                    baseSpeed = maxSpeed;
                 }
             }
         }

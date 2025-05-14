@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.MVP.GameOverMen;
+﻿using Assets.Scripts.Enum;
+using Assets.Scripts.MVP.GameOverMen;
 using Assets.Scripts.MVP.HighScorepPopUp;
 using Assets.Scripts.MVP.InGameLayout;
 using Assets.Scripts.MVP.InGameSettingsMenu;
@@ -71,9 +72,9 @@ namespace Assets.Scripts.Managers
         public void ShowHighScore() => _highScorePresenter.Show();
         public void ShowPopUp()=>_highScorePopUpPresenter.Show();
         public void ShowGameOverMenu() => _gameOverMenuPresenter.Show();
-        public void ShowPowerUp(Sprite powerUpImage) =>  _powerUpPresenter.Show(powerUpImage);
+        public void ShowPowerUp(PowerUpType type,Sprite powerUpImage) =>  _powerUpPresenter.Show(type,powerUpImage);
 
-        public void HidePowerUp() => _powerUpPresenter.Hide();
+        public void HidePowerUp(PowerUpType type) => _powerUpPresenter.Hide(type);
         public void HidePopUp() => _highScorePopUpPresenter.Hide();
 
         public void HandleOpenGameOverMenu()
@@ -90,8 +91,7 @@ namespace Assets.Scripts.Managers
             _inGamePresenter.Hide();
             _inGameSettingsMenuPresenter.Hide(); 
             _highScorePresenter.Hide();
-            _highScorePopUpPresenter.Hide();
-            _powerUpPresenter.Hide();
+            _highScorePopUpPresenter.Hide();           
         }
 
     }

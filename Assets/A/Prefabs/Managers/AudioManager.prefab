@@ -242,3 +242,4 @@ MonoBehaviour:
   sfxSource: {fileID: 2930374362049439434}
   backgroundMusic: {fileID: 8300000, guid: b216a207d4190d241ac71a68f4601657, type: 3}
   CoinCollectMusic: {fileID: 8300000, guid: b72c9e69092a2fb44a3ffc6a6ca55f25, type: 3}
+  BoostCollectMusic: {fileID: 8300000, guid: 251f0c971f619f2438ad0aa5d766befa, type: 3}
